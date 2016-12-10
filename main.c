@@ -1,23 +1,45 @@
 #include<stdio.h>
 int asghar(int a){
-	if(a>=0)
+	if(a>=0){
 		return a;
-	else
+	}
+		
+	else{
 		return -a;
+	}
+	
+	
+		
 }
+
+
 int isPrime(int num0)
 {
-    int i;
-    if(num <= 1)
+	
+	
+	for(int i= 2; i* i<= num ; i++)
+    if(num% i == 0)
         return 0;
-    else if(num == 2 || num == 3)
-        return 1;
-    for(i= 2; i* i<= num ; i++)
-        if(num% i == 0)
-            return 0;
     return 1;
 }
+
+
+
+
 int main() {
-	printf("Hello world!");
+	
+	
+	int a=0;
+	
+	printf("Hello world!%d",a);
+	
+	for(int i=0;i<=100;i++){
+	
+		printf("%d ",i);
+	
+	}
+	
 	return 0;
+
+
 }
